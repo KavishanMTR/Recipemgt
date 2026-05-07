@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/RecipeStudio_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/RecipeStudio_autogen.dir/ParseCache.txt"
+  "RecipeStudio_autogen"
+  "CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/addrecipedialog.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/addrecipedialog.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/authentication.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/authentication.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/loginwindow.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/loginwindow.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/main.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/main.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/mainwindow.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/mainwindow.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/recipecard.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/recipecard.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/recipedetailwindow.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/recipedetailwindow.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/recipemanager.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/recipemanager.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/splashscreen.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/splashscreen.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/src/recipe.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/src/recipe.cpp.obj.d"
+  "CMakeFiles/RecipeStudio.dir/src/user.cpp.obj"
+  "CMakeFiles/RecipeStudio.dir/src/user.cpp.obj.d"
+  "RecipeStudio.exe"
+  "RecipeStudio.exe.manifest"
+  "RecipeStudio.pdb"
+  "RecipeStudio_autogen/mocs_compilation.cpp"
+  "RecipeStudio_autogen/timestamp"
+  "libRecipeStudio.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/RecipeStudio.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

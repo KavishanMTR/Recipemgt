@@ -1,0 +1,5 @@
+C:/Users/manup/Desktop/c+/build-ninja/CMakeFiles/RecipeStudio.dir
+C:/Users/manup/Desktop/c+/build-ninja/CMakeFiles/edit_cache.dir
+C:/Users/manup/Desktop/c+/build-ninja/CMakeFiles/rebuild_cache.dir
+C:/Users/manup/Desktop/c+/build-ninja/CMakeFiles/RecipeStudio_autogen_timestamp_deps.dir
+C:/Users/manup/Desktop/c+/build-ninja/CMakeFiles/RecipeStudio_autogen.dir

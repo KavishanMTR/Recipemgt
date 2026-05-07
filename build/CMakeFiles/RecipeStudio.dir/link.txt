@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\RecipeStudio.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\RecipeStudio.dir/objects.a @CMakeFiles\RecipeStudio.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\RecipeStudio.dir/objects.a -Wl,--no-whole-archive -o RecipeStudio.exe -Wl,--out-implib,libRecipeStudio.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RecipeStudio.dir\linkLibs.rsp

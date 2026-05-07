@@ -1,0 +1,80 @@
+[
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\RecipeStudio_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\build\\RecipeStudio_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/manup/Desktop/c+/build/RecipeStudio_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\main.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\main.cpp",
+  "file": "C:/Users/manup/Desktop/c+/main.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\splashscreen.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\splashscreen.cpp",
+  "file": "C:/Users/manup/Desktop/c+/splashscreen.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/splashscreen.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\loginwindow.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\loginwindow.cpp",
+  "file": "C:/Users/manup/Desktop/c+/loginwindow.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/loginwindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\mainwindow.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\mainwindow.cpp",
+  "file": "C:/Users/manup/Desktop/c+/mainwindow.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/mainwindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\recipecard.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\recipecard.cpp",
+  "file": "C:/Users/manup/Desktop/c+/recipecard.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/recipecard.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\recipedetailwindow.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\recipedetailwindow.cpp",
+  "file": "C:/Users/manup/Desktop/c+/recipedetailwindow.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/recipedetailwindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\addrecipedialog.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\addrecipedialog.cpp",
+  "file": "C:/Users/manup/Desktop/c+/addrecipedialog.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/addrecipedialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\authentication.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\authentication.cpp",
+  "file": "C:/Users/manup/Desktop/c+/authentication.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/authentication.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\recipemanager.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\recipemanager.cpp",
+  "file": "C:/Users/manup/Desktop/c+/recipemanager.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/recipemanager.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\src\\recipe.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\src\\recipe.cpp",
+  "file": "C:/Users/manup/Desktop/c+/src/recipe.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/src/recipe.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\src\\user.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\src\\user.cpp",
+  "file": "C:/Users/manup/Desktop/c+/src/user.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/src/user.cpp.obj"
+},
+{
+  "directory": "C:/Users/manup/Desktop/c+/build",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/RecipeStudio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RecipeStudio.dir\\src\\filehandler.cpp.obj -c C:\\Users\\manup\\Desktop\\c+\\src\\filehandler.cpp",
+  "file": "C:/Users/manup/Desktop/c+/src/filehandler.cpp",
+  "output": "CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.obj"
+}
+]
