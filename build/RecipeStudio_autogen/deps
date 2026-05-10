@@ -104,6 +104,11 @@ RecipeStudio_autogen/timestamp: \
 	C:/Program\ Files/CMake/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/QDateTime \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/QJsonObject \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/QList \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/QObject \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/QRect \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/QSize \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/QSizeF \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/QString \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/QStringList \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/QTimer \
@@ -150,6 +155,9 @@ RecipeStudio_autogen/timestamp: \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qcontainerinfo.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qcontainertools_impl.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qcontiguouscache.h \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication.h \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreevent.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qdarwinhelpers.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qdatastream.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qdatetime.h \
@@ -189,6 +197,7 @@ RecipeStudio_autogen/timestamp: \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qmetatype.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qminmax.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qnamespace.h \
+	C:/Qt/6.11.0/mingw_64/include/QtCore/qnativeinterface.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qnumeric.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qobject.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qobject_impl.h \
@@ -256,17 +265,25 @@ RecipeStudio_autogen/timestamp: \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qversiontagging.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.11.0/mingw_64/include/QtCore/qyieldcpu.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/QResizeEvent \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/QTransform \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qaction.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qbitmap.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qbrush.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qcolor.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qcursor.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qevent.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qeventpoint.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qfont.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qfontinfo.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qfontmetrics.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qfontvariableaxis.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qicon.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qimage.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qinputdevice.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qinputmethod.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qkeysequence.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qpaintdevice.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qpalette.h \
@@ -274,10 +291,13 @@ RecipeStudio_autogen/timestamp: \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qpicture.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qpixelformat.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qpixmap.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qpointingdevice.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qpolygon.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qregion.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qrgb.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qrgba64.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qscreen.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qscreen_platform.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qtextcursor.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qtextdocument.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qtextformat.h \
@@ -287,6 +307,8 @@ RecipeStudio_autogen/timestamp: \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qtguiglobal.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qvalidator.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qvector2d.h \
+	C:/Qt/6.11.0/mingw_64/include/QtGui/qvectornd.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.11.0/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.11.0/mingw_64/include/QtWidgets/QCheckBox \
@@ -717,34 +739,34 @@ RecipeStudio_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	C:/Users/manup/Desktop/c+/CMakeLists.txt \
-	C:/Users/manup/Desktop/c+/addrecipedialog.cpp \
-	C:/Users/manup/Desktop/c+/authentication.cpp \
-	C:/Users/manup/Desktop/c+/build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake \
-	C:/Users/manup/Desktop/c+/build/CMakeFiles/4.3.2/CMakeRCCompiler.cmake \
-	C:/Users/manup/Desktop/c+/build/CMakeFiles/4.3.2/CMakeSystem.cmake \
-	C:/Users/manup/Desktop/c+/build/RecipeStudio_autogen/moc_predefs.h \
-	C:/Users/manup/Desktop/c+/include/addrecipedialog.h \
-	C:/Users/manup/Desktop/c+/include/authentication.h \
-	C:/Users/manup/Desktop/c+/include/filehandler.h \
-	C:/Users/manup/Desktop/c+/include/loginwindow.h \
-	C:/Users/manup/Desktop/c+/include/mainwindow.h \
-	C:/Users/manup/Desktop/c+/include/recipe.h \
-	C:/Users/manup/Desktop/c+/include/recipecard.h \
-	C:/Users/manup/Desktop/c+/include/recipedetailwindow.h \
-	C:/Users/manup/Desktop/c+/include/recipemanager.h \
-	C:/Users/manup/Desktop/c+/include/splashscreen.h \
-	C:/Users/manup/Desktop/c+/include/styles.h \
-	C:/Users/manup/Desktop/c+/include/uihelpers.h \
-	C:/Users/manup/Desktop/c+/include/user.h \
-	C:/Users/manup/Desktop/c+/loginwindow.cpp \
-	C:/Users/manup/Desktop/c+/main.cpp \
-	C:/Users/manup/Desktop/c+/mainwindow.cpp \
-	C:/Users/manup/Desktop/c+/recipecard.cpp \
-	C:/Users/manup/Desktop/c+/recipedetailwindow.cpp \
-	C:/Users/manup/Desktop/c+/recipemanager.cpp \
-	C:/Users/manup/Desktop/c+/splashscreen.cpp \
-	C:/Users/manup/Desktop/c+/src/filehandler.cpp \
-	C:/Users/manup/Desktop/c+/src/recipe.cpp \
-	C:/Users/manup/Desktop/c+/src/user.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/CMakeLists.txt \
+	C:/Users/dulsh/OneDrive/Desktop/c+/build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake \
+	C:/Users/dulsh/OneDrive/Desktop/c+/build/CMakeFiles/4.3.2/CMakeRCCompiler.cmake \
+	C:/Users/dulsh/OneDrive/Desktop/c+/build/CMakeFiles/4.3.2/CMakeSystem.cmake \
+	C:/Users/dulsh/OneDrive/Desktop/c+/build/RecipeStudio_autogen/moc_predefs.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/addrecipedialog.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/authentication.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/filehandler.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/loginwindow.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/mainwindow.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/recipe.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/recipecard.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/recipedetailwindow.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/recipemanager.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/splashscreen.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/styles.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/uihelpers.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/include/user.h \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/addrecipedialog.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/authentication.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/filehandler.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/loginwindow.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/main.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/mainwindow.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/recipe.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/recipecard.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/recipedetailwindow.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/recipemanager.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/splashscreen.cpp \
+	C:/Users/dulsh/OneDrive/Desktop/c+/src/user.cpp \
 	C:/Program\ Files/CMake/bin/cmake.exe

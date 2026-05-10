@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\manup\Desktop\c+
+CMAKE_SOURCE_DIR = C:\Users\dulsh\OneDrive\Desktop\c+
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\manup\Desktop\c+\build
+CMAKE_BINARY_DIR = C:\Users\dulsh\OneDrive\Desktop\c+\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\manup\Desktop\c+\build\CMakeFiles C:\Users\manup\Desktop\c+\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dulsh\OneDrive\Desktop\c+\build\CMakeFiles C:\Users\dulsh\OneDrive\Desktop\c+\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\manup\Desktop\c+\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dulsh\OneDrive\Desktop\c+\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -178,221 +178,53 @@ RecipeStudio_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.s
 .PHONY : RecipeStudio_autogen/mocs_compilation.cpp.s
 
-addrecipedialog.obj: addrecipedialog.cpp.obj
-.PHONY : addrecipedialog.obj
+src/addrecipedialog.obj: src/addrecipedialog.cpp.obj
+.PHONY : src/addrecipedialog.obj
 
 # target to build an object file
-addrecipedialog.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/addrecipedialog.cpp.obj
-.PHONY : addrecipedialog.cpp.obj
+src/addrecipedialog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/addrecipedialog.cpp.obj
+.PHONY : src/addrecipedialog.cpp.obj
 
-addrecipedialog.i: addrecipedialog.cpp.i
-.PHONY : addrecipedialog.i
+src/addrecipedialog.i: src/addrecipedialog.cpp.i
+.PHONY : src/addrecipedialog.i
 
 # target to preprocess a source file
-addrecipedialog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/addrecipedialog.cpp.i
-.PHONY : addrecipedialog.cpp.i
+src/addrecipedialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/addrecipedialog.cpp.i
+.PHONY : src/addrecipedialog.cpp.i
 
-addrecipedialog.s: addrecipedialog.cpp.s
-.PHONY : addrecipedialog.s
+src/addrecipedialog.s: src/addrecipedialog.cpp.s
+.PHONY : src/addrecipedialog.s
 
 # target to generate assembly for a file
-addrecipedialog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/addrecipedialog.cpp.s
-.PHONY : addrecipedialog.cpp.s
+src/addrecipedialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/addrecipedialog.cpp.s
+.PHONY : src/addrecipedialog.cpp.s
 
-authentication.obj: authentication.cpp.obj
-.PHONY : authentication.obj
+src/authentication.obj: src/authentication.cpp.obj
+.PHONY : src/authentication.obj
 
 # target to build an object file
-authentication.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/authentication.cpp.obj
-.PHONY : authentication.cpp.obj
+src/authentication.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/authentication.cpp.obj
+.PHONY : src/authentication.cpp.obj
 
-authentication.i: authentication.cpp.i
-.PHONY : authentication.i
-
-# target to preprocess a source file
-authentication.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/authentication.cpp.i
-.PHONY : authentication.cpp.i
-
-authentication.s: authentication.cpp.s
-.PHONY : authentication.s
-
-# target to generate assembly for a file
-authentication.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/authentication.cpp.s
-.PHONY : authentication.cpp.s
-
-loginwindow.obj: loginwindow.cpp.obj
-.PHONY : loginwindow.obj
-
-# target to build an object file
-loginwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/loginwindow.cpp.obj
-.PHONY : loginwindow.cpp.obj
-
-loginwindow.i: loginwindow.cpp.i
-.PHONY : loginwindow.i
+src/authentication.i: src/authentication.cpp.i
+.PHONY : src/authentication.i
 
 # target to preprocess a source file
-loginwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/loginwindow.cpp.i
-.PHONY : loginwindow.cpp.i
+src/authentication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/authentication.cpp.i
+.PHONY : src/authentication.cpp.i
 
-loginwindow.s: loginwindow.cpp.s
-.PHONY : loginwindow.s
-
-# target to generate assembly for a file
-loginwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/loginwindow.cpp.s
-.PHONY : loginwindow.cpp.s
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
+src/authentication.s: src/authentication.cpp.s
+.PHONY : src/authentication.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-mainwindow.obj: mainwindow.cpp.obj
-.PHONY : mainwindow.obj
-
-# target to build an object file
-mainwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/mainwindow.cpp.obj
-.PHONY : mainwindow.cpp.obj
-
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
-
-# target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
-
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
-
-# target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
-
-recipecard.obj: recipecard.cpp.obj
-.PHONY : recipecard.obj
-
-# target to build an object file
-recipecard.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipecard.cpp.obj
-.PHONY : recipecard.cpp.obj
-
-recipecard.i: recipecard.cpp.i
-.PHONY : recipecard.i
-
-# target to preprocess a source file
-recipecard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipecard.cpp.i
-.PHONY : recipecard.cpp.i
-
-recipecard.s: recipecard.cpp.s
-.PHONY : recipecard.s
-
-# target to generate assembly for a file
-recipecard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipecard.cpp.s
-.PHONY : recipecard.cpp.s
-
-recipedetailwindow.obj: recipedetailwindow.cpp.obj
-.PHONY : recipedetailwindow.obj
-
-# target to build an object file
-recipedetailwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipedetailwindow.cpp.obj
-.PHONY : recipedetailwindow.cpp.obj
-
-recipedetailwindow.i: recipedetailwindow.cpp.i
-.PHONY : recipedetailwindow.i
-
-# target to preprocess a source file
-recipedetailwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipedetailwindow.cpp.i
-.PHONY : recipedetailwindow.cpp.i
-
-recipedetailwindow.s: recipedetailwindow.cpp.s
-.PHONY : recipedetailwindow.s
-
-# target to generate assembly for a file
-recipedetailwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipedetailwindow.cpp.s
-.PHONY : recipedetailwindow.cpp.s
-
-recipemanager.obj: recipemanager.cpp.obj
-.PHONY : recipemanager.obj
-
-# target to build an object file
-recipemanager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipemanager.cpp.obj
-.PHONY : recipemanager.cpp.obj
-
-recipemanager.i: recipemanager.cpp.i
-.PHONY : recipemanager.i
-
-# target to preprocess a source file
-recipemanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipemanager.cpp.i
-.PHONY : recipemanager.cpp.i
-
-recipemanager.s: recipemanager.cpp.s
-.PHONY : recipemanager.s
-
-# target to generate assembly for a file
-recipemanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/recipemanager.cpp.s
-.PHONY : recipemanager.cpp.s
-
-splashscreen.obj: splashscreen.cpp.obj
-.PHONY : splashscreen.obj
-
-# target to build an object file
-splashscreen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/splashscreen.cpp.obj
-.PHONY : splashscreen.cpp.obj
-
-splashscreen.i: splashscreen.cpp.i
-.PHONY : splashscreen.i
-
-# target to preprocess a source file
-splashscreen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/splashscreen.cpp.i
-.PHONY : splashscreen.cpp.i
-
-splashscreen.s: splashscreen.cpp.s
-.PHONY : splashscreen.s
-
-# target to generate assembly for a file
-splashscreen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/splashscreen.cpp.s
-.PHONY : splashscreen.cpp.s
+src/authentication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/authentication.cpp.s
+.PHONY : src/authentication.cpp.s
 
 src/filehandler.obj: src/filehandler.cpp.obj
 .PHONY : src/filehandler.obj
@@ -418,6 +250,78 @@ src/filehandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.s
 .PHONY : src/filehandler.cpp.s
 
+src/loginwindow.obj: src/loginwindow.cpp.obj
+.PHONY : src/loginwindow.obj
+
+# target to build an object file
+src/loginwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/loginwindow.cpp.obj
+.PHONY : src/loginwindow.cpp.obj
+
+src/loginwindow.i: src/loginwindow.cpp.i
+.PHONY : src/loginwindow.i
+
+# target to preprocess a source file
+src/loginwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/loginwindow.cpp.i
+.PHONY : src/loginwindow.cpp.i
+
+src/loginwindow.s: src/loginwindow.cpp.s
+.PHONY : src/loginwindow.s
+
+# target to generate assembly for a file
+src/loginwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/loginwindow.cpp.s
+.PHONY : src/loginwindow.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/mainwindow.obj: src/mainwindow.cpp.obj
+.PHONY : src/mainwindow.obj
+
+# target to build an object file
+src/mainwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/mainwindow.cpp.obj
+.PHONY : src/mainwindow.cpp.obj
+
+src/mainwindow.i: src/mainwindow.cpp.i
+.PHONY : src/mainwindow.i
+
+# target to preprocess a source file
+src/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/mainwindow.cpp.i
+.PHONY : src/mainwindow.cpp.i
+
+src/mainwindow.s: src/mainwindow.cpp.s
+.PHONY : src/mainwindow.s
+
+# target to generate assembly for a file
+src/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/mainwindow.cpp.s
+.PHONY : src/mainwindow.cpp.s
+
 src/recipe.obj: src/recipe.cpp.obj
 .PHONY : src/recipe.obj
 
@@ -441,6 +345,102 @@ src/recipe.s: src/recipe.cpp.s
 src/recipe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipe.cpp.s
 .PHONY : src/recipe.cpp.s
+
+src/recipecard.obj: src/recipecard.cpp.obj
+.PHONY : src/recipecard.obj
+
+# target to build an object file
+src/recipecard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipecard.cpp.obj
+.PHONY : src/recipecard.cpp.obj
+
+src/recipecard.i: src/recipecard.cpp.i
+.PHONY : src/recipecard.i
+
+# target to preprocess a source file
+src/recipecard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipecard.cpp.i
+.PHONY : src/recipecard.cpp.i
+
+src/recipecard.s: src/recipecard.cpp.s
+.PHONY : src/recipecard.s
+
+# target to generate assembly for a file
+src/recipecard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipecard.cpp.s
+.PHONY : src/recipecard.cpp.s
+
+src/recipedetailwindow.obj: src/recipedetailwindow.cpp.obj
+.PHONY : src/recipedetailwindow.obj
+
+# target to build an object file
+src/recipedetailwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipedetailwindow.cpp.obj
+.PHONY : src/recipedetailwindow.cpp.obj
+
+src/recipedetailwindow.i: src/recipedetailwindow.cpp.i
+.PHONY : src/recipedetailwindow.i
+
+# target to preprocess a source file
+src/recipedetailwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipedetailwindow.cpp.i
+.PHONY : src/recipedetailwindow.cpp.i
+
+src/recipedetailwindow.s: src/recipedetailwindow.cpp.s
+.PHONY : src/recipedetailwindow.s
+
+# target to generate assembly for a file
+src/recipedetailwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipedetailwindow.cpp.s
+.PHONY : src/recipedetailwindow.cpp.s
+
+src/recipemanager.obj: src/recipemanager.cpp.obj
+.PHONY : src/recipemanager.obj
+
+# target to build an object file
+src/recipemanager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipemanager.cpp.obj
+.PHONY : src/recipemanager.cpp.obj
+
+src/recipemanager.i: src/recipemanager.cpp.i
+.PHONY : src/recipemanager.i
+
+# target to preprocess a source file
+src/recipemanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipemanager.cpp.i
+.PHONY : src/recipemanager.cpp.i
+
+src/recipemanager.s: src/recipemanager.cpp.s
+.PHONY : src/recipemanager.s
+
+# target to generate assembly for a file
+src/recipemanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/recipemanager.cpp.s
+.PHONY : src/recipemanager.cpp.s
+
+src/splashscreen.obj: src/splashscreen.cpp.obj
+.PHONY : src/splashscreen.obj
+
+# target to build an object file
+src/splashscreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/splashscreen.cpp.obj
+.PHONY : src/splashscreen.cpp.obj
+
+src/splashscreen.i: src/splashscreen.cpp.i
+.PHONY : src/splashscreen.i
+
+# target to preprocess a source file
+src/splashscreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/splashscreen.cpp.i
+.PHONY : src/splashscreen.cpp.i
+
+src/splashscreen.s: src/splashscreen.cpp.s
+.PHONY : src/splashscreen.s
+
+# target to generate assembly for a file
+src/splashscreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RecipeStudio.dir\build.make CMakeFiles/RecipeStudio.dir/src/splashscreen.cpp.s
+.PHONY : src/splashscreen.cpp.s
 
 src/user.obj: src/user.cpp.obj
 .PHONY : src/user.obj
@@ -480,39 +480,39 @@ help:
 	@echo ... RecipeStudio_autogen/mocs_compilation.obj
 	@echo ... RecipeStudio_autogen/mocs_compilation.i
 	@echo ... RecipeStudio_autogen/mocs_compilation.s
-	@echo ... addrecipedialog.obj
-	@echo ... addrecipedialog.i
-	@echo ... addrecipedialog.s
-	@echo ... authentication.obj
-	@echo ... authentication.i
-	@echo ... authentication.s
-	@echo ... loginwindow.obj
-	@echo ... loginwindow.i
-	@echo ... loginwindow.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... mainwindow.obj
-	@echo ... mainwindow.i
-	@echo ... mainwindow.s
-	@echo ... recipecard.obj
-	@echo ... recipecard.i
-	@echo ... recipecard.s
-	@echo ... recipedetailwindow.obj
-	@echo ... recipedetailwindow.i
-	@echo ... recipedetailwindow.s
-	@echo ... recipemanager.obj
-	@echo ... recipemanager.i
-	@echo ... recipemanager.s
-	@echo ... splashscreen.obj
-	@echo ... splashscreen.i
-	@echo ... splashscreen.s
+	@echo ... src/addrecipedialog.obj
+	@echo ... src/addrecipedialog.i
+	@echo ... src/addrecipedialog.s
+	@echo ... src/authentication.obj
+	@echo ... src/authentication.i
+	@echo ... src/authentication.s
 	@echo ... src/filehandler.obj
 	@echo ... src/filehandler.i
 	@echo ... src/filehandler.s
+	@echo ... src/loginwindow.obj
+	@echo ... src/loginwindow.i
+	@echo ... src/loginwindow.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/mainwindow.obj
+	@echo ... src/mainwindow.i
+	@echo ... src/mainwindow.s
 	@echo ... src/recipe.obj
 	@echo ... src/recipe.i
 	@echo ... src/recipe.s
+	@echo ... src/recipecard.obj
+	@echo ... src/recipecard.i
+	@echo ... src/recipecard.s
+	@echo ... src/recipedetailwindow.obj
+	@echo ... src/recipedetailwindow.i
+	@echo ... src/recipedetailwindow.s
+	@echo ... src/recipemanager.obj
+	@echo ... src/recipemanager.i
+	@echo ... src/recipemanager.s
+	@echo ... src/splashscreen.obj
+	@echo ... src/splashscreen.i
+	@echo ... src/splashscreen.s
 	@echo ... src/user.obj
 	@echo ... src/user.i
 	@echo ... src/user.s

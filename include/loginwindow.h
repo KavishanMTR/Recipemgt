@@ -8,6 +8,8 @@
 #include <QLabel>
 #include <QLineEdit>
 #include <QPushButton>
+#include <QResizeEvent>
+#include <QString>
 
 class LoginWindow : public QDialog {
     Q_OBJECT
@@ -27,19 +29,25 @@ private:
     QLabel* subtitleLabel;
     QLabel* statusLabel;
     QLabel* hintLabel;
+    QLabel* heroImageLabel;
     Authentication* auth;
     bool signupMode;
     bool darkMode;
+    QString heroImagePath;
 
     void setupUI();
     void setupConnections();
     void updateMode();
     void loadRememberedState();
+    void loadHeroImage();
     void showStatus(const QString& message, bool error = false);
 
 public:
     explicit LoginWindow(Authentication* auth, QWidget* parent = nullptr);
     QString getLoggedInUser() const;
+
+protected:
+    void resizeEvent(QResizeEvent* event) override;
 
 signals:
     void loginSuccess(const QString& username);

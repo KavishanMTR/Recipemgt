@@ -1,8 +1,8 @@
 CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj: \
- C:\Users\manup\Desktop\c+\build\RecipeStudio_autogen\mocs_compilation.cpp \
- C:\Users\manup\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_addrecipedialog.cpp \
- C:/Users/manup/Desktop/c+/include/addrecipedialog.h \
- C:/Users/manup/Desktop/c+/include/recipe.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\build\RecipeStudio_autogen\mocs_compilation.cpp \
+ C:\Users\dulsh\OneDrive\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_addrecipedialog.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/addrecipedialog.h \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/recipe.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/QDateTime \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qcalendar.h \
@@ -439,18 +439,44 @@ CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/q20algorithm.h \
- C:\Users\manup\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_loginwindow.cpp \
- C:/Users/manup/Desktop/c+/include/loginwindow.h \
- C:/Users/manup/Desktop/c+/include/authentication.h \
- C:/Users/manup/Desktop/c+/include/user.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_loginwindow.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/loginwindow.h \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/authentication.h \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/user.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/QVector \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qvector.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QCheckBox \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qcheckbox.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QFrame \
- C:\Users\manup\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_mainwindow.cpp \
- C:/Users/manup/Desktop/c+/include/mainwindow.h \
- C:/Users/manup/Desktop/c+/include/recipemanager.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/QResizeEvent \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qevent.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qeventloop.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qdeadlinetimer.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qeventpoint.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qvector2d.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qvectornd.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qpointingdevice.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qinputdevice.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qscreen.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QList \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QRect \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QSize \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/QSizeF \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/QTransform \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qnativeinterface.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qscreen_platform.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.11.0/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_mainwindow.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/mainwindow.h \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/recipemanager.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QGridLayout \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qlayout.h \
@@ -460,18 +486,14 @@ CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QStackedWidget \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qstackedwidget.h \
- C:\Users\manup\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_recipecard.cpp \
- C:/Users/manup/Desktop/c+/include/recipecard.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_recipecard.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/recipecard.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QWidget \
- C:\Users\manup\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_recipedetailwindow.cpp \
- C:/Users/manup/Desktop/c+/include/recipedetailwindow.h \
- C:\Users\manup\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_splashscreen.cpp \
- C:/Users/manup/Desktop/c+/include/splashscreen.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_recipedetailwindow.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/recipedetailwindow.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\build\RecipeStudio_autogen\6YEA5652QU/moc_splashscreen.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/splashscreen.h \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/QProgressBar \
  C:/Qt/6.11.0/mingw_64/include/QtWidgets/qprogressbar.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/QTimer \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qtimer.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qbasictimer.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qabstracteventdispatcher.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qeventloop.h \
- C:/Qt/6.11.0/mingw_64/include/QtCore/qdeadlinetimer.h
+ C:/Qt/6.11.0/mingw_64/include/QtCore/qtimer.h

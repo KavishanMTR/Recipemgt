@@ -1,5 +1,5 @@
-C:/Users/manup/Desktop/c+/build/RecipeStudio_autogen/6YEA5652QU/moc_recipecard.cpp: C:/Users/manup/Desktop/c+/include/recipecard.h \
-  C:/Users/manup/Desktop/c+/build/RecipeStudio_autogen/moc_predefs.h \
+C:/Users/dulsh/OneDrive/Desktop/c+/build/RecipeStudio_autogen/6YEA5652QU/moc_recipecard.cpp: C:/Users/dulsh/OneDrive/Desktop/c+/include/recipecard.h \
+  C:/Users/dulsh/OneDrive/Desktop/c+/build/RecipeStudio_autogen/moc_predefs.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QDateTime \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QString \
@@ -398,4 +398,4 @@ C:/Users/manup/Desktop/c+/build/RecipeStudio_autogen/6YEA5652QU/moc_recipecard.c
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/manup/Desktop/c+/include/recipe.h
+  C:/Users/dulsh/OneDrive/Desktop/c+/include/recipe.h

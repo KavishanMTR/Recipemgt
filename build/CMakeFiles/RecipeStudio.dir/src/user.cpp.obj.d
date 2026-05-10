@@ -1,6 +1,6 @@
 CMakeFiles/RecipeStudio.dir/src/user.cpp.obj: \
- C:\Users\manup\Desktop\c+\src\user.cpp \
- C:/Users/manup/Desktop/c+/include/user.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\src\user.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/user.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/QJsonObject \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qjsonobject.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qjsonvalue.h \

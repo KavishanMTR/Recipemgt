@@ -22,15 +22,15 @@ HEADERS += \
     include/user.h
 
 SOURCES += \
-    addrecipedialog.cpp \
-    authentication.cpp \
-    loginwindow.cpp \
-    main.cpp \
-    mainwindow.cpp \
-    recipedetailwindow.cpp \
-    recipemanager.cpp \
-    recipecard.cpp \
-    splashscreen.cpp \
+    src/addrecipedialog.cpp \
+    src/authentication.cpp \
+    src/loginwindow.cpp \
+    src/main.cpp \
+    src/mainwindow.cpp \
+    src/recipedetailwindow.cpp \
+    src/recipemanager.cpp \
+    src/recipecard.cpp \
+    src/splashscreen.cpp \
     src/filehandler.cpp \
     src/recipe.cpp \
     src/user.cpp

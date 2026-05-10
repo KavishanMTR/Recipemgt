@@ -29,7 +29,7 @@ public:
     QVector<Recipe> searchRecipes(const QString& query) const;
     QVector<Recipe> getByCategory(const QString& category) const;
     QVector<Recipe> getFavourites() const;
-    QVector<Recipe> getRecentRecipes(int count = 6) const;
+    QVector<Recipe> getRecentRecipes(int count = 0) const;
     QVector<Recipe> filterRecipes(const QString& query, const QString& category, bool favouritesOnly = false) const;
 
     bool toggleFavourite(int id);

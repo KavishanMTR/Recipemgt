@@ -9,6 +9,7 @@
 #include <QLineEdit>
 #include <QMainWindow>
 #include <QPushButton>
+#include <QResizeEvent>
 #include <QStackedWidget>
 
 class MainWindow : public QMainWindow {
@@ -46,6 +47,7 @@ private:
     QGridLayout* dashboardRecentGrid;
     QGridLayout* libraryGrid;
     QGridLayout* favouritesGrid;
+    int lastGridColumnCount;
 
     void setupUI();
     QWidget* createSidebar();
@@ -63,11 +65,15 @@ private:
     void refreshAll();
     void setActiveNav(QPushButton* activeButton);
     void switchPage(int index, QPushButton* activeButton);
+    int gridColumnCount(QGridLayout* layout) const;
     void populateGrid(QGridLayout* layout, const QVector<Recipe>& recipes, const QString& emptyTitle, const QString& emptySubtitle);
     QVector<Recipe> currentLibraryRecipes() const;
     void openRecipeDialog(int recipeId = 0);
     void openRecipeDetail(int recipeId);
     void seedSampleRecipes();
+
+protected:
+    void resizeEvent(QResizeEvent* event) override;
 
 private slots:
     void onLibrarySearch();

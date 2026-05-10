@@ -1,6 +1,6 @@
 CMakeFiles/RecipeStudio.dir/src/recipe.cpp.obj: \
- C:\Users\manup\Desktop\c+\src\recipe.cpp \
- C:/Users/manup/Desktop/c+/include/recipe.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\src\recipe.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/recipe.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/QDateTime \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qdatetime.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qcalendar.h \

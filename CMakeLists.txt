@@ -17,15 +17,15 @@ else()
 endif()
 
 set(PROJECT_SOURCES
-    main.cpp
-    splashscreen.cpp
-    loginwindow.cpp
-    mainwindow.cpp
-    recipecard.cpp
-    recipedetailwindow.cpp
-    addrecipedialog.cpp
-    authentication.cpp
-    recipemanager.cpp
+    src/main.cpp
+    src/splashscreen.cpp
+    src/loginwindow.cpp
+    src/mainwindow.cpp
+    src/recipecard.cpp
+    src/recipedetailwindow.cpp
+    src/addrecipedialog.cpp
+    src/authentication.cpp
+    src/recipemanager.cpp
     src/recipe.cpp
     src/user.cpp
     src/filehandler.cpp

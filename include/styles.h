@@ -105,6 +105,14 @@ inline QString loginWindow(bool darkMode) {
             font-size: 12px;
             line-height: 1.5;
         }
+        QLabel#LoginHeroImage {
+            color: %7;
+            background: %8;
+            border: 1px solid %5;
+            border-radius: 18px;
+            font-size: 15px;
+            font-weight: 700;
+        }
         QLabel#FieldLabel {
             color: %7;
             font-size: 11px;
@@ -340,6 +348,36 @@ inline QString mainWindow(bool darkMode) {
             color: %4;
             font-size: 13px;
         }
+        QComboBox#FilterCombo::drop-down {
+            border: none;
+            width: 28px;
+        }
+        QComboBox#FilterCombo::down-arrow {
+            image: none;
+            width: 0;
+            height: 0;
+        }
+        QComboBox#FilterCombo QAbstractItemView {
+            background: %9;
+            color: %4;
+            border: 1px solid %3;
+            border-radius: 10px;
+            padding: 6px;
+            outline: 0;
+            selection-background-color: %7;
+            selection-color: %6;
+            font-size: 13px;
+        }
+        QComboBox#FilterCombo QAbstractItemView::item {
+            min-height: 30px;
+            padding: 6px 10px;
+            border-radius: 8px;
+        }
+        QComboBox#FilterCombo QAbstractItemView::item:hover,
+        QComboBox#FilterCombo QAbstractItemView::item:selected {
+            background: %7;
+            color: %6;
+        }
         QPushButton#CategoryChip,
         QPushButton#CategoryChipActive {
             border-radius: 18px;
@@ -512,6 +550,36 @@ inline QString dialog(bool darkMode) {
         QSpinBox:focus {
             border: 1px solid %7;
         }
+        QComboBox::drop-down {
+            border: none;
+            width: 30px;
+        }
+        QComboBox::down-arrow {
+            image: none;
+            width: 0;
+            height: 0;
+        }
+        QComboBox QAbstractItemView {
+            background: %2;
+            color: %4;
+            border: 1px solid %3;
+            border-radius: 10px;
+            padding: 6px;
+            outline: 0;
+            selection-background-color: %9;
+            selection-color: %7;
+            font-size: 13px;
+        }
+        QComboBox QAbstractItemView::item {
+            min-height: 30px;
+            padding: 6px 10px;
+            border-radius: 8px;
+        }
+        QComboBox QAbstractItemView::item:hover,
+        QComboBox QAbstractItemView::item:selected {
+            background: %9;
+            color: %7;
+        }
         QPushButton#PrimaryButton {
             background: %7;
             color: white;
@@ -571,20 +639,37 @@ inline QString recipeDetail(bool darkMode) {
         QDialog#RecipeDetailWindow {
             background: %1;
         }
-        QFrame#DetailCard {
+        QFrame#DetailShell {
             background: %2;
             border: 1px solid %3;
-            border-radius: 28px;
+            border-radius: 24px;
+        }
+        QFrame#DetailSection {
+            background: %9;
+            border: 1px solid %3;
+            border-radius: 14px;
         }
         QLabel#DetailTitle {
             color: %4;
-            font-size: 30px;
+            font-size: 28px;
             font-weight: 700;
         }
-        QLabel#DetailSubtitle,
+        QLabel#DetailSubtitle {
+            color: %5;
+            font-size: 13px;
+        }
+        QLabel#DetailDescription {
+            color: %5;
+            background: %9;
+            border: 1px solid %3;
+            border-radius: 12px;
+            padding: 12px 14px;
+            font-size: 13px;
+        }
         QLabel#DetailBody {
             color: %5;
             font-size: 13px;
+            line-height: 1.45;
         }
         QLabel#SectionTitle {
             color: %4;
@@ -633,6 +718,30 @@ inline QString recipeDetail(bool darkMode) {
             background: %6;
             color: white;
         }
+        QScrollArea#DetailScrollArea {
+            background: transparent;
+            border: none;
+        }
+        QWidget#DetailViewport,
+        QWidget#DetailScrollContent {
+            background: transparent;
+        }
+        QScrollBar:vertical {
+            background: transparent;
+            width: 8px;
+            margin: 2px 0;
+        }
+        QScrollBar::handle:vertical {
+            background: %3;
+            border-radius: 4px;
+        }
+        QScrollBar::handle:vertical:hover {
+            background: %6;
+        }
+        QScrollBar::add-line:vertical,
+        QScrollBar::sub-line:vertical {
+            height: 0;
+        }
     )")
         .arg(windowBackground(darkMode))
         .arg(cardBackground(darkMode))
@@ -641,7 +750,8 @@ inline QString recipeDetail(bool darkMode) {
         .arg(textMuted(darkMode))
         .arg(accent(darkMode))
         .arg(accentSoft(darkMode))
-        .arg(darkMode ? "#F97316" : "#276749");
+        .arg(darkMode ? "#F97316" : "#276749")
+        .arg(elevatedCard(darkMode));
 }
 
 }

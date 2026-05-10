@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\manup\Desktop\c+
+CMAKE_SOURCE_DIR = C:\Users\dulsh\OneDrive\Desktop\c+
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\manup\Desktop\c+\build
+CMAKE_BINARY_DIR = C:\Users\dulsh\OneDrive\Desktop\c+\build
 
 # Utility rule file for RecipeStudio_autogen_timestamp_deps.
 
@@ -80,6 +80,6 @@ CMakeFiles/RecipeStudio_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/RecipeStudio_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/RecipeStudio_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\manup\Desktop\c+ C:\Users\manup\Desktop\c+ C:\Users\manup\Desktop\c+\build C:\Users\manup\Desktop\c+\build C:\Users\manup\Desktop\c+\build\CMakeFiles\RecipeStudio_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)" RecipeStudio_autogen_timestamp_deps
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\dulsh\OneDrive\Desktop\c+ C:\Users\dulsh\OneDrive\Desktop\c+ C:\Users\dulsh\OneDrive\Desktop\c+\build C:\Users\dulsh\OneDrive\Desktop\c+\build C:\Users\dulsh\OneDrive\Desktop\c+\build\CMakeFiles\RecipeStudio_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)" RecipeStudio_autogen_timestamp_deps
 .PHONY : CMakeFiles/RecipeStudio_autogen_timestamp_deps.dir/depend
 

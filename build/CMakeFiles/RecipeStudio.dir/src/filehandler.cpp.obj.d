@@ -1,6 +1,6 @@
 CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.obj: \
- C:\Users\manup\Desktop\c+\src\filehandler.cpp \
- C:/Users/manup/Desktop/c+/include/filehandler.h \
+ C:\Users\dulsh\OneDrive\Desktop\c+\src\filehandler.cpp \
+ C:/Users/dulsh/OneDrive/Desktop/c+/include/filehandler.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.11.0/mingw_64/include/QtCore/qatomic.h \

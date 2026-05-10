@@ -9,19 +9,19 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "RecipeStudio_autogen/timestamp" "custom" "RecipeStudio_autogen/deps"
-  "C:/Users/manup/Desktop/c+/build/RecipeStudio_autogen/mocs_compilation.cpp" "CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/addrecipedialog.cpp" "CMakeFiles/RecipeStudio.dir/addrecipedialog.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/addrecipedialog.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/authentication.cpp" "CMakeFiles/RecipeStudio.dir/authentication.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/authentication.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/loginwindow.cpp" "CMakeFiles/RecipeStudio.dir/loginwindow.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/loginwindow.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/main.cpp" "CMakeFiles/RecipeStudio.dir/main.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/main.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/mainwindow.cpp" "CMakeFiles/RecipeStudio.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/mainwindow.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/recipecard.cpp" "CMakeFiles/RecipeStudio.dir/recipecard.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/recipecard.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/recipedetailwindow.cpp" "CMakeFiles/RecipeStudio.dir/recipedetailwindow.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/recipedetailwindow.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/recipemanager.cpp" "CMakeFiles/RecipeStudio.dir/recipemanager.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/recipemanager.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/splashscreen.cpp" "CMakeFiles/RecipeStudio.dir/splashscreen.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/splashscreen.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/src/filehandler.cpp" "CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/src/recipe.cpp" "CMakeFiles/RecipeStudio.dir/src/recipe.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/recipe.cpp.obj.d"
-  "C:/Users/manup/Desktop/c+/src/user.cpp" "CMakeFiles/RecipeStudio.dir/src/user.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/user.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/build/RecipeStudio_autogen/mocs_compilation.cpp" "CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/RecipeStudio_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/addrecipedialog.cpp" "CMakeFiles/RecipeStudio.dir/src/addrecipedialog.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/addrecipedialog.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/authentication.cpp" "CMakeFiles/RecipeStudio.dir/src/authentication.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/authentication.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/filehandler.cpp" "CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/filehandler.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/loginwindow.cpp" "CMakeFiles/RecipeStudio.dir/src/loginwindow.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/loginwindow.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/main.cpp" "CMakeFiles/RecipeStudio.dir/src/main.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/main.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/mainwindow.cpp" "CMakeFiles/RecipeStudio.dir/src/mainwindow.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/mainwindow.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/recipe.cpp" "CMakeFiles/RecipeStudio.dir/src/recipe.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/recipe.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/recipecard.cpp" "CMakeFiles/RecipeStudio.dir/src/recipecard.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/recipecard.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/recipedetailwindow.cpp" "CMakeFiles/RecipeStudio.dir/src/recipedetailwindow.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/recipedetailwindow.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/recipemanager.cpp" "CMakeFiles/RecipeStudio.dir/src/recipemanager.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/recipemanager.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/splashscreen.cpp" "CMakeFiles/RecipeStudio.dir/src/splashscreen.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/splashscreen.cpp.obj.d"
+  "C:/Users/dulsh/OneDrive/Desktop/c+/src/user.cpp" "CMakeFiles/RecipeStudio.dir/src/user.cpp.obj" "gcc" "CMakeFiles/RecipeStudio.dir/src/user.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

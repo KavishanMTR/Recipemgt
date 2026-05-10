@@ -3,6 +3,8 @@
 #include "recipe.h"
 
 #include <QFileInfo>
+#include <QFontMetrics>
+#include <QLinearGradient>
 #include <QPainter>
 #include <QPainterPath>
 #include <QPixmap>
@@ -107,7 +109,35 @@ inline QPixmap recipePixmap(const Recipe& recipe, const QSize& size, int radius 
         if (info.exists() && info.isFile()) {
             const QPixmap source(recipe.getImagePath());
             if (!source.isNull()) {
-                return roundedPixmap(source, size, radius);
+                QPixmap pixmap = roundedPixmap(source, size, radius);
+
+                QPainter painter(&pixmap);
+                painter.setRenderHint(QPainter::Antialiasing, true);
+                painter.setRenderHint(QPainter::TextAntialiasing, true);
+
+                QLinearGradient shade(0, 0, 0, size.height());
+                shade.setColorAt(0.0, QColor(0, 0, 0, 96));
+                shade.setColorAt(0.45, QColor(0, 0, 0, 24));
+                shade.setColorAt(1.0, QColor(0, 0, 0, 0));
+                QPainterPath clipPath;
+                clipPath.addRoundedRect(pixmap.rect(), radius, radius);
+                painter.fillPath(clipPath, shade);
+
+                QFont labelFont("Segoe UI", 9, QFont::DemiBold);
+                labelFont.setCapitalization(QFont::AllUppercase);
+                painter.setFont(labelFont);
+                const QString label = recipe.getCategoryLabel();
+                const QFontMetrics metrics(labelFont);
+                const int labelWidth = qMin(size.width() - 28, metrics.horizontalAdvance(label) + 24);
+                const QRect labelRect(14, 14, labelWidth, 28);
+
+                painter.setPen(Qt::NoPen);
+                painter.setBrush(QColor(255, 255, 255, 220));
+                painter.drawRoundedRect(labelRect, 14, 14);
+                painter.setPen(categoryColor(recipe.getCategory()).darker(145));
+                painter.drawText(labelRect, Qt::AlignCenter, metrics.elidedText(label, Qt::ElideRight, labelRect.width() - 14));
+
+                return pixmap;
             }
         }
     }

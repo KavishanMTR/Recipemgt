@@ -1,5 +1,5 @@
-C:/Users/manup/Desktop/c+/build/RecipeStudio_autogen/6YEA5652QU/moc_splashscreen.cpp: C:/Users/manup/Desktop/c+/include/splashscreen.h \
-  C:/Users/manup/Desktop/c+/build/RecipeStudio_autogen/moc_predefs.h \
+C:/Users/dulsh/OneDrive/Desktop/c+/build/RecipeStudio_autogen/6YEA5652QU/moc_splashscreen.cpp: C:/Users/dulsh/OneDrive/Desktop/c+/include/splashscreen.h \
+  C:/Users/dulsh/OneDrive/Desktop/c+/build/RecipeStudio_autogen/moc_predefs.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.11.0/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.11.0/mingw_64/include/QtCore/q20bit.h \
